@@ -17,7 +17,6 @@ typedef struct {
     int pathSize;
 } BFS;
 
-/* ---------- Dynamic Friend List Functions ---------- */
 void initFriendList(FriendList *list) {
     list->size = 0;
     list->capacity = 2;
@@ -36,7 +35,6 @@ void freeFriendList(FriendList *list) {
     free(list->friends);
 }
 
-/* ---------- BFS Functions ---------- */
 void initBFS(BFS *bfs, FriendList *records, int nAccounts) {
     bfs->records = records;
     bfs->nAccounts = nAccounts;
