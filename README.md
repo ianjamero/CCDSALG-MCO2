@@ -2,8 +2,8 @@
 
 **HOW TO RUN**
 
-1. Compile
+1. Compile <br>
    gcc -Wall main.c -o main.exe
 
-2. Run
+3. Run <br>
    ./main.exe
